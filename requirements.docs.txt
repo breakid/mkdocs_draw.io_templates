@@ -1,0 +1,2 @@
+mkdocs==1.5.3
+mkdocs-drawio-file==1.5.2

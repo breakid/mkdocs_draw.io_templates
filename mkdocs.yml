@@ -1,0 +1,7 @@
+site_name: Diagram Demo
+site_url: http://localhost:8000
+theme: readthedocs
+plugins:
+  - drawio_file
+nav:
+  - Home: index.md

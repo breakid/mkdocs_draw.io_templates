@@ -1,0 +1,12 @@
+---
+
+services:
+  docs:
+    build: .
+    pull_policy: build
+    image: docs:latest
+    container_name: docs
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+      - "5678:5678"
